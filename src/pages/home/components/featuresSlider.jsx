@@ -12,7 +12,7 @@ const FeaturesSlider = () => {
                 const { fistFeature, secondFeature } = features;
                 return (
                   <div key={index}>
-                    <h1 className='text-[86px] leading-[86px] xl:text-[102px] tracking-[1px] percentage_value font-[600] xl:leading-[102px] text-white flex gap-[4rem]'>
+                    <h1 className='text-[86px] leading-[86px] xl:text-[102px] tracking-[1px] percentage_value font-[400] xl:leading-[102px] text-white flex gap-[4rem]'>
                       {fistFeature} {secondFeature}
                     </h1>
                   </div>
