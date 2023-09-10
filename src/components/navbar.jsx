@@ -22,12 +22,12 @@ const Navbar = () => {
     window.addEventListener('scroll', changeNavbarBg);
   });
   return (
-    <header className={navbarBgChanged ? "bg-white fixed top-0 left-0 w-full z-20 duration-500 shadow-md py-6 lg:py-4" : "bg-transparent fixed top-0 left-0 w-full z-20 duration-500 py-6 lg:py-4"}>
+    <header className={navbarBgChanged ? "bg-white fixed top-0 left-0 w-[100vw] z-20 duration-500 shadow-md py-6" : "bg-transparent fixed top-0 left-0 w-[100vw] z-20 duration-500 py-6"}>
       <nav className="mx-full flex items-center justify-between px-[20px] lg:px-[50px]" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to="/" className={navbarBgChanged ? "-m-1.5 p-1.5 text-gray-900" : "-m-1.5 p-1.5 text-white"}>
-            <h1 className='text-[1.8rem] font-[500] uppercase'>
-              Logistica
+            <h1 className='text-[24px] leading-[22px] font-[500] uppercase'>
+              Logistica.
             </h1>
           </Link>
         </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
           {navbarLinks.map((links, index) => {
             const { name, linkPath } = links;
             return (
-              <Link key={ImageBitmapRenderingContext} to={linkPath} className={navbarBgChanged ? 'no-underline px-[10px] duration-500  uppercase text-gray-900 text-[.9rem] font-[500]' : 'no-underline px-[10px] duration-500  uppercase text-white text-[.9rem] font-[500]'}>
+              <Link key={index} to={linkPath} className={navbarBgChanged ? 'no-underline px-[10px] duration-500  uppercase text-gray-900 text-[.9rem] font-[500]' : 'no-underline px-[10px] duration-500  uppercase text-white text-[.9rem] font-[500]'}>
                 {name}
               </Link>
             )
@@ -62,8 +62,8 @@ const Navbar = () => {
         <Dialog.Panel className="fixed inset-y-0 z-[50] right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5 text-gray-900">
-              <h1 className='text-[1.8rem] font-[500] uppercase'>
-                Logistica
+              <h1 className='text-[24px] leading-[22px] font-[500] uppercase'>
+                Logistica.
               </h1>
             </Link>
             <button
@@ -81,7 +81,7 @@ const Navbar = () => {
                 {navbarLinks.map((links, index) => {
                   const { name, linkPath } = links;
                   return (
-                    <Link to={linkPath} className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
+                    <Link key={index} to={linkPath} className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
                       {name}
                     </Link>
                   )

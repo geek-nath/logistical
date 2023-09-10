@@ -4,7 +4,7 @@ import { featuresData } from '../../../data/featuresData'
 const FeaturesSlider = () => {
   return (
     <>
-      <section className='features_slider relative'>
+      <section className='features_slider relative h-[55vh]'>
         <div className="absolute bottom-0 left-0 right-0">
           <marquee className="text-white mb-3" behavior="scroll" direction="left">
             <div className="flex gap-[3rem]">

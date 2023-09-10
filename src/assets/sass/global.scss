@@ -7,13 +7,35 @@ body {
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: rgb(233, 211, 115);
+  color: black;
+}
+
+.img_el::before {
+  border-left: 2px solid #000;
+  border-top: 2px solid #000;
+}
+
+.img_el::after {
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+button {
+  font-family: 'Jost', sans-serif !important;
+}
+
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: 'Outfit' !important;
+}
+
+h3 {
+  font-family: 'Jost', sans-serif !important;
 }
 
 p {

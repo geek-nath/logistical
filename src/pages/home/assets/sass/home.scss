@@ -1,7 +1,7 @@
 .hero_banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), url('../image/slide_2.jpg');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.63) 30%, rgb(0, 0, 0, 0.63)), url('../image/slide_2.jpg');
   background-position: center;
-  // background-attachment: fixed;
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -18,7 +18,6 @@
 }
 
 .features_slider {
-  height: 70vh;
   width: 100vw;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.63) 30%, rgb(0, 0, 0, 0.63)), url('../image/featues_slider.jpg');
   background-position: top;
@@ -34,4 +33,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.swiper-slide {
+  width: 600px !important;
+  overflow: hidden;
+  transition: .3s ease-in !important;
+}
+
+.swiper-slide-active {
+  transform: scale(1.1);
 }
