@@ -5,6 +5,7 @@ body {
   padding: 0%;
   overflow-x: hidden;
   box-sizing: border-box;
+  font-family: 'Jost', sans-serif !important;
 }
 
 ::selection {
@@ -46,4 +47,12 @@ p {
   font-family: 'Jost', sans-serif !important;
   font-size: 17px;
   font-weight: 400px;
+}
+
+.contact_ref {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.63) 30%, rgb(0, 0, 0, 0.63)), url('../../assets/images/contact_container_bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

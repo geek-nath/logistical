@@ -2,15 +2,11 @@ import React from 'react'
 import './assets/sass/style.scss'
 import { Link } from 'react-router-dom'
 import * as AiIcons from 'react-icons/ai'
-import Alians from './assets/svg/undraw_taken_re_yn20.svg'
 
 const PageNotFound = () => {
   return (
     <>
       <section className="bg-white relative z-[2] h-[100vh] w-[100vw] flex items-center justify-center">
-        <div className="absolute bottom-0 right-0 z-[1]">
-          <img src={Alians} width={'300'} alt="alians illustration" />
-        </div>
         <div className="text-center">
           <h1 className='text-gray-800 page_not_found_header tracking-[5px] font-[400] text-[200px] leading-[150px] md:leading-[200px] md:text-[350px]'>
             404

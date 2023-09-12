@@ -44,3 +44,19 @@
 .swiper-slide-active {
   transform: scale(1.1);
 }
+
+.project_image_wrap:hover img {
+  transform: scale(1.5);
+}
+
+.image_overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.63) 30%, rgb(0, 0, 0, 0.63));
+}
+
+.highlight_wrap img {
+  transition: .3s ease-in;
+}
+
+.highlight_wrap:hover img {
+  transform: scale(1.1);
+}

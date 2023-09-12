@@ -21,7 +21,7 @@ const ChooseUs = () => {
           <h1 data-aos="fade-right" data-aos-duration="3000" className='text-gray-800 mt-[50px] font-[700] text-[40px] leading-[40px] md:text-[66px] md:leading-[66px] xl:text-[114px] xl:leading-[114px]'>
             Why Choose Us
           </h1>
-          <hr className='mt-[50px]' />
+          <hr className='mt-9' />
 
           <div className="mt-8">
             <div className='block xl:flex gap-[5rem]'>

@@ -75,13 +75,13 @@ const Navbar = () => {
               <GrIcons.GrClose className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="mt-6 flow-root">
+          <div className="mt-[50px] flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 {navbarLinks.map((links, index) => {
                   const { name, linkPath } = links;
                   return (
-                    <Link key={index} to={linkPath} className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
+                    <Link key={index} to={linkPath} className='-mx-3 block rounded-lg px-3 border-gray-200 border-b rounded-[0] py-4 text-[20px] font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
                       {name}
                     </Link>
                   )

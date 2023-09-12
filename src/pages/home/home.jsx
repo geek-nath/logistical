@@ -7,6 +7,9 @@ import ServiceSteps from './components/serviceSteps'
 import ChooseUs from './components/chooseUs'
 import Navbar from '../../components/navbar'
 import CarouselSlider from './components/slider'
+import Triumphs from './components/triumps'
+import Highlights from './components/highlights'
+import ContactRef from '../../components/contactRef'
 
 const HomePage = () => {
   return (
@@ -19,6 +22,9 @@ const HomePage = () => {
         <ServiceSteps />
         <ChooseUs />
         <CarouselSlider />
+        <Triumphs />
+        <Highlights />
+        <ContactRef />
       </main>
     </>
   )
