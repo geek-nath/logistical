@@ -26,7 +26,7 @@ const Navbar = () => {
       <nav className="mx-full flex items-center justify-between px-[20px] lg:px-[50px]" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to="/" className={navbarBgChanged ? "-m-1.5 p-1.5 text-gray-900" : "-m-1.5 p-1.5 text-white"}>
-            <h1 className='text-[24px] leading-[22px] font-[500] uppercase'>
+            <h1 className='text-[24px] leading-[22px] font-[600] uppercase'>
               Logistica.
             </h1>
           </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
         <Dialog.Panel className="fixed inset-y-0 z-[50] right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5 text-gray-900">
-              <h1 className='text-[24px] leading-[22px] font-[500] uppercase'>
+              <h1 className='text-[24px] leading-[22px] font-[600] uppercase'>
                 Logistica.
               </h1>
             </Link>
